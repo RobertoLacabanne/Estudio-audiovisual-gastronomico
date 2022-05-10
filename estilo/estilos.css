@@ -218,6 +218,17 @@ box-shadow:
       right: 0;
       left: auto;
     }
+    .footer2 {
+      background-color: black;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: max-content;
+      color: #222222;
+    }
+    body {
+      color: #222222;
+    }
 
 
     

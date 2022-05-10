@@ -11,47 +11,111 @@
     <title>Contacto</title>
 </head>
 <body>
-    <header class="ul">
-        <img class="logo" src="../Imagenes/Logo amarillo a.rodar.png" alt="">
-        <nav>
-           
-            
-            <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="Nosotros.html">Nosotros</a></li>
-            <li><a href="Trabajos.html">Trabajos</a></li>
-            <li><a href="Clientes.html">Clientes</a></li>
-            <li> <a href="https://www.youtube.com/channel/UCnVi_sidyStambKo3Yim17g" target="blank">  YouTube</a></li>
-           </ul>
-           
-        </nav>
-    </header>
-    <div class="fuenteLetra">
-    <form action="ruta" method="get" enctype="encrpiptacion">
-        <div class="Formulario__hijo">
-            <label for="nombre">Nombre completo</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Ingresar nombre completo">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <img src="../Imagenes/Logo amarillo a.rodar.png"class="img-fluid" alt="Logo" width="150px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="../index.html" >Inicio</a>
+                <a class="nav-link" href="Sitio web/Nosotros.html">Nosotros</a>
+                <a class="nav-link" href="Sitio web/Trabajos.html">Trabajos</a>
+                <a class="nav-link" href="Sitio web/Clientes.html">Clientes</a>
+                
+              </div>
             </div>
-        
-        <div class="Formulario__hijo">
-            <label for="empresa">Empresa</label>
-            <input type="text" name="Empresa" id="Empresa" placeholder="Nombre de empresa">
-        </div>
-        <div class="Formulario__hijo">
-            <label for="email">Email</label>
-            <input type="email" name="correo" id="correo" placeholder="Ingrese su correo">
-        </div>
-        <div class="Formulario__hijo">
-            <label for="Tipo de trabajo">Tipo de trabajo</label>
-            <select name="Tipo de trabajo" id="Tipo de trabajo">
-            <option  value="Fotos">Fotos</option>
-            <option  value="Video">Video</option>
-        </select>
-        
-        <input type="button" value="Enviar">
-
-    </form>
+          </div>
+        </nav>
+      </header>
+    <div class="fuenteLetra">
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="validationCustom01" value="Ingrese su nombre" required>
+              <div class="valid-feedback">
+                Muy bien!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="validationCustom02" value="Su apellido" required>
+              <div class="valid-feedback">
+                Bien!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Nombre de Emprendimiento</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend"></span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Please choose a username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">Trabajo que desea</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Elegir</option>
+                <option>Fotos</option>
+                <option>Videos</option>
+                <option>Ambos</option>
+              </select>
+            </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Estoy interesado en contactarte
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+          </form>
     </div>
+    <footer class="bg-dark text-white footer2">
+        <div class="container">
+          <nav class="row">
+            <a href="#" class="col-3 text-reset text-uppercase d-flex aling-items-center">
+              <img src="../Imagenes/Logo amarillo a.rodar.png" class="img-fluid" alt="Logo" width="150px">
+            </a>
+  
+          </nav>
+  
+        </div>
+          <ul class="col-5 list-unstyled d-flex flex-wrap">
+            <li class="font-weight-bold d-flex flex-wrap bd-highlight mb-3"></li>
+              <li><a href="index.html" class="text-reset p-2 bd-highlight">Inicio</a></li>
+              <li><a href="Nosotros.html" class="text-reset p-2 bd-highlight">Nosotros</a></li>
+              <li><a href="Trabajos.html" class="text-reset p-2 bd-highlight">Trabajos</a></li>
+              <li><a href="Clientes.html" class="text-reset p-2 bd-highlight">Clientes</a></li>
+              </ul>
+              <ul class="col-2 list-unstyled">
+                <li class="font-weight-bold text-uppercase"></li>
+                <li class="d-flex justify-content-between">
+                  <a href="#" class="text-reset">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="#"class="text-reset">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  
+                </li>
+              </ul>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
