@@ -60,12 +60,7 @@ p {
     text-align: justify;
     text-align: center;
   }
-  .carousel-item {
-    width: 100%;
-    height: 1300px;
-    object-fit: cover;
-
-  }
+ 
   
   .subtitulos {
     font-size: 175%;
@@ -229,6 +224,15 @@ box-shadow:
     body {
       color: #222222;
     }
+    .carousel-item {
+      width: 100%;
+      height: 1500px;
+      object-fit: cover;
+      padding: auto;
+}
+.m-s {
+  margin-right: 0 !important;
+}
 
 
     
