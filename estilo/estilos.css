@@ -30,6 +30,7 @@ header {
     margin-bottom: 0;
     margin-top: 3rem;
     color: #999999;
+    font-size: 100px;
 }
 .h2{
   font-family: 'Bodoni BoldItalic Cyrillic', arial;
@@ -41,6 +42,7 @@ header {
     margin-top: 0;
     font-style: italic;
     color: #999999;
+    font-size: 70px;
 }
 
 .container-fluid {
@@ -233,8 +235,21 @@ box-shadow:
 .m-s {
   margin-right: 0 !important;
 }
-.m-5 {
-  background-color: #222222;
+@media (max-width: 600px) {
+  .h1 { font-size: 50px;
+
+  }
+  .h2 {
+    font-size: 30px;
+  }
+  .imgnosotros, .pnosotros {
+width: 100%;
+  }
+  .video1,.video2,.video3 {
+    width: 100%;
+  }
+
+
 }
 
 
