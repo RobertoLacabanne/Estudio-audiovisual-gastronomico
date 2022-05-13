@@ -1,0 +1,24 @@
+{
+  "name": "estudio-audiovisual-gastronomico---lacabanne-roberto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertoLacabanne/Estudio-audiovisual-gastronomico---Lacabanne-Roberto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertoLacabanne/Estudio-audiovisual-gastronomico---Lacabanne-Roberto/issues"
+  },
+  "homepage": "https://github.com/RobertoLacabanne/Estudio-audiovisual-gastronomico---Lacabanne-Roberto#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
