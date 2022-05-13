@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header {
+    background-color: $color-principal;
+  }
+  .navbar-nav {
+      margin: auto;
+  }
+  
+  .navbar-nav:hover{
+      background-color: $color-principal;
+      border-color: #666666;
+  }
+  .navbar-nav:active{
+      padding: 0.2em;
+  }
+  li {
+    text-decoration: none;
+  }
+  header {
+    display: flex;
+  flex-direction: column;
+  }
+  

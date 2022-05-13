@@ -1,0 +1,41 @@
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    
+    background-color: $color-principal;
+    flex: auto;
+    list-style-type: none;
+    float: left;
+    flex-direction: row;
+    border: transparent;
+    border-color: #3c3831;
+    color: white;
+    font-family: 'Roboto Condensed';
+    list-style: none;
+  }
+  footer ul li a {
+    display: flex;
+  flex-direction: row;
+    text-decoration: none;
+    border: transparent;
+    border-color: #3c3831;
+    color: white;
+    padding: 0.3em;
+    font-family: 'Roboto Condensed';
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+  }
+  li {
+    text-decoration: none;
+  }
+  .footer2 {
+    background-color: $color-principal;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: max-content;
+    color: $color-principal;
+  }

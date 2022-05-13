@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -190,21 +191,6 @@ box-shadow:
             width: 100vh;
           }
            
-    
-        
-          
-
-
-  iframe {    
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    width: auto;
-    margin-bottom: -4px;
-    object-fit: cover;
-  }
-
   
     header {
       display: flex;
