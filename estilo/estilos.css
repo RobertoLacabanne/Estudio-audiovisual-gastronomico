@@ -233,6 +233,19 @@ width: 100%;
   .video1,.video2,.video3 {
     width: 100%;
   }
+  .carousel-item {
+    height: 100vh;
+  }
+  .row>* {
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    
+  }
+  .img-fluid {
+    max-width: none;
+  }
 
 
 }

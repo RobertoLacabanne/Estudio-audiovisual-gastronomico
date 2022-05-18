@@ -151,6 +151,9 @@ li {
   .video1, .video2, .video3 {
     width: 100%;
   }
+  .carousel-item {
+    height: none;
+  }
 }
 
 * {
