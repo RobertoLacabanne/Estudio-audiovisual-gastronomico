@@ -1,0 +1,55 @@
+$modo Rober;
+$theme-color: transparent;
+
+@if &modo == claro {
+    $theme-color: #666666;
+}
+@else if &modo == oscuro {
+    $theme-color: #222222;
+}
+
+.sass-2 {
+    color: $theme-color;
+}
+
+$redes: (
+    instagram: #C25E30,
+    whatsapp: green,
+    youtube: red,
+);
+
+@each $clave, $valor in $redes {
+    .btn-#{$clave} {
+        background-color: $valor;
+    }
+}
+
+.button {
+    background-color: beige;
+    text-align: center;
+    color: #222222;
+
+
+&--aceptar {
+    @extend .button;
+    background-color: green;
+    color: aliceblue;
+}
+
+$--cancelar {
+    @extend .button;
+    background-color: red;
+    color: yellow;
+    
+}
+}
+ 
+@mixin generarFlex ($direction, $eje-principal, $eje-secundario: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $eje-principal;
+    align-items: $eje-secundario;
+}
+.header {
+    @include generarFlex ( row, center)
+}
