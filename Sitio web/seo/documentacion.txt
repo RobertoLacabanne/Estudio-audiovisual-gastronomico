@@ -1,0 +1,5 @@
+Coloque las etiquetas Keywords y description.
+No hay texto de rellenos
+Verifique la jerarquia de los encabezados
+Comprimi imagenes y videos, luego a la seccion de trabajos le agrego el iframe de youtube
+agregue sass-2 para cumplir bien el desafio dejandolo compilando funcionando

@@ -211,6 +211,10 @@ box-shadow:
     body {
       color: #222222;
     }
+    body [data-aos-duration='4000'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='4000'] {
+    transition-duration: 4000ms;
+  }
     .carousel-item {
       width: 100%;
       height: 1500px;
