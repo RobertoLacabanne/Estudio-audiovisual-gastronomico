@@ -1,0 +1,3 @@
+Este proyecto esta destinado a un estudio audiovisual dirigido a la gastronomia, en el cual se producen fotos, videos,reels y todo contenido para redes sociales de los clientes que contratan el servicio. Por esto mismo es de vital importancia que en el sitio web se pueda ver la calidad del trabajo que se puede ofrecer.
+ 
+Al crear y plantearme el proyecto decidi darle un protagonismo principal a lo ya mencionado, ya que para atraer a un futuro cliente creo que es mejor demostrar de lo que uno es capaz de hacer.
