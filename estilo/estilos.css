@@ -265,6 +265,9 @@ width: 100%;
     gap: 1rem;
     
   }
+  .site-footer {
+    width: 300px;
+  }
 
   .img-fluid {
     max-width: none;
@@ -292,6 +295,16 @@ width: 100%;
   font-size: 5px;
   right: 0;
   bottom: 0;
+}
+footer {
+  width: 100%;
+  display: flex;
+  margin: 10px 0 0 0 !important
+  padding: 0;
+  position: relative;
+  z-index: -2;
+  height: 270px;
+  background: var(--clr4);
 }
 
 
