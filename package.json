@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilo.scss css/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  
   },
   "repository": {
     "type": "git",
@@ -16,9 +19,5 @@
   "bugs": {
     "url": "https://github.com/RobertoLacabanne/Estudio-audiovisual-gastronomico---Lacabanne-Roberto/issues"
   },
-  "homepage": "https://github.com/RobertoLacabanne/Estudio-audiovisual-gastronomico---Lacabanne-Roberto#readme",
-  "dependencies": {
-    "node-sass": "^7.0.1",
-    "nodemon": "^2.0.16"
-  }
+  "homepage": "https://github.com/RobertoLacabanne/Estudio-audiovisual-gastronomico---Lacabanne-Roberto#readme"
 }
