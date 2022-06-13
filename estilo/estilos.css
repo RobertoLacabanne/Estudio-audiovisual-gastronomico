@@ -226,6 +226,12 @@ footer {
   width: 100vw;
   height: 50%;
 }
+.Contactanos {
+  color: white;
+}
+.botonContacto {
+  margin-top: 2rem;
+}
 
 
 @media (max-width: 600px) {
