@@ -231,7 +231,7 @@ footer {
 }
 .card {
   background-color: #dfdc42;
-  max-height: max-content !important;
+  object-fit: contain !important;
 }
 .card-text {
   color: black;
